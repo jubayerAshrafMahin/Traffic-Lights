@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Project1</string>
+    <string name="yellow_light_rules">The yellow light is a warning signal that the green light is about to change. It means "Prepare to Stop." You should slow down and be ready to stop if the light turns red before you can safely proceed. If it is safe to do so, you may cautiously proceed through the intersection, but be prepared to stop if necessary.</string>
+    <string name="red_light_rules">The red light is the most important traffic signal. It means "Stop." When you see a red light, you must bring your vehicle to a complete stop before the white stop line. Do not proceed until the light turns green.</string>
+    <string name="green_light_rules">The green light indicates "Go." When the light turns green, you may proceed in the direction indicated by the green arrow. However, you must first yield to any vehicles that are already in the intersection or that have not yet cleared the intersection. You should also be aware of pedestrians and bicyclists who may be crossing the street.</string>
+</resources>

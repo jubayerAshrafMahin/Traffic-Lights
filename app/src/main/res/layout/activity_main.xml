@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#2196F3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Learn Traffic Signals"
+        android:layout_marginBottom="25dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="When the light is"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:id="@+id/tv_light_color"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="90sp"
+        android:layout_height="175sp"
+        android:id="@+id/iv_traffic_light"
+        android:layout_marginVertical="20dp"
+        android:src="@drawable/traffic_light_red"
+
+        />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/tv_instruction"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="230dp"
+        android:textColor="@color/white"
+        android:id="@+id/traffic_light_rules"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="25dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:id="@+id/btn_previous"
+            android:text="Previous"
+            android:layout_marginHorizontal="20dp"
+            android:textColor="#0E6ABA"
+            android:backgroundTint="@color/white"
+            />
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:id="@+id/btn_next"
+            android:text="Next"
+            android:layout_marginHorizontal="20dp"
+            android:textColor="#0E6ABA"
+            android:backgroundTint="@color/white"
+            />
+    </LinearLayout>
+
+</LinearLayout>
